@@ -1,0 +1,23 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A basic tic-tac-toe game implemented in Redux.",
+  "main": "./src/index.js",
+  "repository": "https://github.com/tic-tac-totes/tic-tac-toe.git",
+  "author": "Chris Jaynes <chris@jaynes.me>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint .",
+    "test": "tape -r babel-register './test/**/*-test.js'"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.14.0",
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "redux": "^3.7.2"
+  }
+}
